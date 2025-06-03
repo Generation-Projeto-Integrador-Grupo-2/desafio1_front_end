@@ -3,6 +3,7 @@ import Funcionarios from './pages/Funcionarios';
 import Sidebar from './components/sidebar/Sidebar';
 
 import './App.css'
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           />
           <Route path="/" element={<div></div>} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
