@@ -19,8 +19,8 @@ const Navbar = () => {
                         className={`${
                             location.pathname === '/funcionarios' 
                             ? 'text-[#46CFB1]' 
-                            : 'text-[#98B0A9]'
-                        } hover:text-[#46CFB1] transition-colors`}
+                            : 'text-[#354B45]'
+                        } hover:text-[#46CFB1] transition-colors font-semibold`}
                     >
                         Funcionários
                     </Link>
@@ -29,8 +29,8 @@ const Navbar = () => {
                         className={`${
                             location.pathname === '/sobre' 
                             ? 'text-[#46CFB1]' 
-                            : 'text-[#98B0A9]'
-                        } hover:text-[#46CFB1] transition-colors`}
+                            : 'text-[#354B45]'
+                        } hover:text-[#46CFB1] transition-colors font-semibold`}
                     >
                         Sobre Nós
                     </Link>

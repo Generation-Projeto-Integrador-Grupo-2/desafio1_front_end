@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <>
-            <div className="flex justify-center bg-[#46CFB1] text-white rounded-t-2xl">
+            <div className="flex justify-center bg-[#46CFB1] text-white rounded-t-1x1 ">
                 <div className="container flex flex-col items-start py-4 px-4">
                     <div className="flex gap-4 items-start flex-wrap">
                         {/*Logo RH Romeu */}
@@ -30,7 +30,7 @@ function Footer() {
                     </div>
 
                     {/* Linha branca horizontal */}
-                    <div className="w-full h-0.5 bg-white mt-4 rounded-full" />
+                    <div className="w-full h-0.5 bg-white mt-1 rounded-full" />
 
                     {/* Copyright centralizado abaixo da linha */}
                     <div className="w-full flex justify-center mt-4 text-white">
