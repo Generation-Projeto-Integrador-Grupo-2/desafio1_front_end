@@ -4,7 +4,7 @@ function Home() {
 return (
 <section
     id="home"
-    className="h-screen bg-gradient-to-r  to-[#EBFDF8] bg-[#98B0A9] text-black flex items-center justify-center"
+    className="h-screen bg-gradient-to-r  to-[#e0dddd]  text-black flex items-center justify-center"
     >
     <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
